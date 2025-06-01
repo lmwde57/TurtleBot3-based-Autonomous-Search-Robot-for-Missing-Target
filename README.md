@@ -5,7 +5,7 @@
 - [Phase 1: 기본 환경 구성](#phase-1-기본-환경-구성)
 - [Phase 2: 우리 패키지 블록들 실행](#Phase-2-우리-패키지-블록들-실행)
 - [Phase 3: 탐색시작 + 타이머](#Phase-3-탐색-시작--타이머)
-- [Expected Result](#Expected-Result-(Post-condition))
+- [Expected Result](#Expected-Result-Post-condition)
 # 실행환경
 UBUNTU 22.04<br>
 ROS2 HUMBLE
