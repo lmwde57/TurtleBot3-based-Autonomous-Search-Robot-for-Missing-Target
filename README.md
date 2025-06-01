@@ -49,7 +49,7 @@ cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 launch explore_lite e
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller timer_controller
 ```
 
-# Expected Result (Post-condition)
+# Expected Result (Post condition)
 3초 후: 블록 4에서 "탐색 시작" 메시지
 
 즉시: explore_lite가 실제 탐색 시작
