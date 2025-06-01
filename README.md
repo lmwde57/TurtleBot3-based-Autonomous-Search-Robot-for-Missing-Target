@@ -1,7 +1,7 @@
 ## TurtleBot3-based-Autonomous-Search-Robot-for-Missing-Target
 # 전체 테스트 순서 (8개 터미널)
 ## 목차
-- [1. Phase 1](#Phase-1-기본-환경-구성)
+- [Phase 1: 기본 환경 구성](#phase-1-기본-환경-구성)
 - [2. Phase 2](#Phase-2)
 - [3. Phase 3](#Phase-3)
 # Phase 1: 기본 환경 구성 <br>
