@@ -11,7 +11,7 @@ UBUNTU 22.04<br>
 ROS2 HUMBLE
 
 # Phase 1: 기본 환경 구성
-<터미널 1: Gazebo 시뮬레이션 실행>
+<터미널 1: Gazebo 시뮬레이션 실행><br>
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
@@ -20,21 +20,21 @@ cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=bu
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
 ```
-<터미널 3: Navigation2 실행>
+<터미널 3: Navigation2 실행><br>
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
 ```
 
 # Phase 2: 우리 패키지 블록들 실행
-<터미널 4: 블록 1 (초기 위치 저장) 실행>
+<터미널 4: 블록 1 (초기 위치 저장) 실행><br>
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller position_manager
 ```
-<터미널 5: 블록 3 (복귀 대기) 실행>
+<터미널 5: 블록 3 (복귀 대기) 실행><br>
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller navigation_controller
 ```
-<터미널 6: 블록 4 (탐색 제어 허브) 실행>
+<터미널 6: 블록 4 (탐색 제어 허브) 실행><br>
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller exploration_controller
 ```
