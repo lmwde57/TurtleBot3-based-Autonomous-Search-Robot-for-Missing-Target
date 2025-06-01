@@ -17,7 +17,7 @@ bash<br>
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True<br>
 <br>
 <br>
-# Phase 2: 우리 패키지 블록들 실행<br>
+# Phase 2: 우리 패키지 블록들 실행
 <터미널 4: 블록 1 (초기 위치 저장) 실행><br>
 bash<br>
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller position_manager<br>
@@ -30,7 +30,7 @@ cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_cont
 bash<br>
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller exploration_controller<br>
 <br>
-# Phase 3: 탐색 시작 + 타이머<br>
+# Phase 3: 탐색 시작 + 타이머
 <터미널 7: m-explore-ros2 탐색 패키지 실행><br>
 bash<br>
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 launch explore_lite explore.launch.py<br>
