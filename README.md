@@ -1,13 +1,11 @@
 ## TurtleBot3-based-Autonomous-Search-Robot-for-Missing-Target
 # 전체 테스트 순서 (8개 터미널)
 ## 목차
-- [개요](#개요)
-- [1. Phase 1](#Phase-1)
+- [1. Phase 1](#Phase-1-기본-환경-구성)
 - [2. Phase 2](#Phase-2)
 - [3. Phase 3](#Phase-3)
 # Phase 1: 기본 환경 구성 <br>
 <터미널 1: Gazebo 시뮬레이션 실행><br>
-# 개요
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py<br>
 <br>
 <터미널 2: SLAM Toolbox 실행><br>
