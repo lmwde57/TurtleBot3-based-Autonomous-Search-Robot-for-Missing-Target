@@ -48,6 +48,7 @@ cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 launch explore_lite e
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller timer_controller
 ```
+실제 환경에서는 목표물을 찾고 즉시 복귀하지만, 해당 실행 환경에선 목표물 설정 대신 임의로 15초 후 찾았다는 가정 하에 진행.
 
 # Expected Result (Post condition)
 3초 후: 블록 4에서 "탐색 시작" 메시지
