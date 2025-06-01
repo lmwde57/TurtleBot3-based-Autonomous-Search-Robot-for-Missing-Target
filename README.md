@@ -3,7 +3,7 @@
 ## 목차
 - [Phase 1: 기본 환경 구성](#phase-1-기본-환경-구성)
 - [Phase 2: 우리 패키지 블록들 실행](#Phase-2-우리-패키지-블록들-실행)
-- [Phase 3: 탐색시작 + 타이머](#Phase-3-탐색-시작-+-타이머)
+- [Phase 3: 탐색시작 + 타이머](#Phase-3-탐색-시작--타이머)
 # Phase 1: 기본 환경 구성
 <터미널 1: Gazebo 시뮬레이션 실행><br>
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py<br>
