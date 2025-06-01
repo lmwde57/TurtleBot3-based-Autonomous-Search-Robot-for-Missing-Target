@@ -15,7 +15,7 @@ ROS2 HUMBLE
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 ```
-<br>
+
 <터미널 2: SLAM Toolbox 실행>
 ```bash
 cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
