@@ -5,7 +5,7 @@
 - [Phase 1: 기본 환경 구성](#phase-1-기본-환경-구성)
 - [Phase 2: 우리 패키지 블록들 실행](#Phase-2-우리-패키지-블록들-실행)
 - [Phase 3: 탐색시작 + 타이머](#Phase-3-탐색-시작--타이머)
-
+- [Expected Result](#Expected-Result-(Post-condition))
 # 실행환경
 UBUNTU 22.04<br>
 ROS2 HUMBLE
@@ -49,7 +49,7 @@ cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 launch explore_lite e
 cd ~/my_turtlebot_ws/ && source install/setup.bash && ros2 run auto_explore_controller timer_controller
 ```
 
-예상 시퀀스
+# Expected Result (Post-condition)
 3초 후: 블록 4에서 "탐색 시작" 메시지
 
 즉시: explore_lite가 실제 탐색 시작
