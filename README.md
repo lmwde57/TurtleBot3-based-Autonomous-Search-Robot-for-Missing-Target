@@ -7,7 +7,7 @@
 - [Phase 3: 탐색시작 + 타이머](#Phase-3-탐색-시작--타이머)
 
 # 실행환경
-UBUNTU 22.04
+UBUNTU 22.04<br>
 ROS2 HUMBLE
 
 # Phase 1: 기본 환경 구성
