@@ -121,7 +121,7 @@ cd yolov5
 앞선 설치 관련 내용을 **반드시** 준수하여야 함.
 #### 1-1. 가제보 시뮬레이션 실행
 ```bash
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+cd ~/my_turtlebot_ws/ && source install/setup.bash && export TURTLEBOT3_MODEL=burger && ros2 launch turtlebot3_gazebo turtlebot_map_second.launch.py
 ```
 #### 1-2. SLAM 실행
 ```bash
@@ -143,6 +143,19 @@ ros2 launch nav2_bringup rviz_launch.py
 ```bash
 ros2 run mission_control mission_manager
 ```
+#### 1-7-1. 객체 소환 참고
+home에서 **ctrl+H** 버튼을 눌러 hiddenfile을 확인하면 **.gazebo**가 보임. <br>
+해당 파일에 github에 올라와 있는 **.gazebo** 내부의 **model**을 넣어줌.
+
+#### 1-7-2. 객체 소환 명령
+```bash
+ros2 run gazebo_ros spawn_entity.py \
+-entity doll_box_rotated \
+-file ~/.gazebo/models/doll_box/model.sdf \
+-x -5.5 -y -2.0 -z 0
+```
+###### (참고로 좌표 x 5.5 y 2.0 z 0 은 사용자가 설정 가능.)
+
 ### [2] 터틀봇3 실행
 
 #### 2-1. 로봇 시작
