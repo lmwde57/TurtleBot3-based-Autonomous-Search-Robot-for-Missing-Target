@@ -1,0 +1,19 @@
+SSH 접속법
+모바일 핫스팟 켜기 (휴대전화 WiFi 연결된 상태로 진행하는 것 추천)
+	설정 : 네트워크 이름 'robot5' 비밀번호 '123456789' 
+	오늘 공유한 모바일 데이터 > 연결된 기기 ubuntu 선택
+	오른쪽 위 i 버튼 눌러서 IP주소 확인
+터미널 열어서 'ssh pi@IP주소', 비밀번호 raspberry
+
+# 카메라 설정법. 
+라즈베리파이 (ssh 접속)
+ros2 launch rasp.py # 카메라 실행
+컴퓨터
+python3 yoloserv.py # 카메라 이미지에 대해 yolo 추론 실행, 이후 결과 bool형의 /doll_detected 반환
+ros2 run rqt_image_view rqt_image_view /yolov5/image_annotated #이미지 추론 확인용, 꼭 실행할 필요는 없음
+
+# 오류 발생시 설치할 것
+pip install torch torchvision
+pip install opencv-python
+sudo apt install ros-humble-cv-bridge
+pip install numpy

@@ -1,0 +1,492 @@
+[0.000000] (-) TimerEvent: {}
+[0.001511] (-) JobUnselected: {'identifier': 'auto_explore_controller'}
+[0.002023] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.002107] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.002554] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.002723] (-) JobUnselected: {'identifier': 'explore_lite'}
+[0.002980] (-) JobUnselected: {'identifier': 'mission_control'}
+[0.003127] (-) JobUnselected: {'identifier': 'multirobot_map_merge'}
+[0.003212] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.003284] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.003357] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.003429] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003501] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003571] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003670] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003756] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003829] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003908] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.004032] (ld08_driver) JobStarted: {'identifier': 'ld08_driver'}
+[0.058410] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'cmake'}
+[0.060446] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/my_turtlebot_ws/src/ld08_driver', '-DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/ld08_driver'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/ld08_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/ld08_driver'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.098912] (-) TimerEvent: {}
+[0.199723] (-) TimerEvent: {}
+[0.300535] (-) TimerEvent: {}
+[0.401417] (-) TimerEvent: {}
+[0.502532] (-) TimerEvent: {}
+[0.603688] (-) TimerEvent: {}
+[0.704720] (-) TimerEvent: {}
+[0.805693] (-) TimerEvent: {}
+[0.906746] (-) TimerEvent: {}
+[1.007817] (-) TimerEvent: {}
+[1.108741] (-) TimerEvent: {}
+[1.209533] (-) TimerEvent: {}
+[1.310716] (-) TimerEvent: {}
+[1.411786] (-) TimerEvent: {}
+[1.512671] (-) TimerEvent: {}
+[1.613904] (-) TimerEvent: {}
+[1.714649] (-) TimerEvent: {}
+[1.815529] (-) TimerEvent: {}
+[1.878917] (ld08_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.915707] (-) TimerEvent: {}
+[2.016456] (-) TimerEvent: {}
+[2.117360] (-) TimerEvent: {}
+[2.218126] (-) TimerEvent: {}
+[2.318810] (-) TimerEvent: {}
+[2.419788] (-) TimerEvent: {}
+[2.520678] (-) TimerEvent: {}
+[2.613252] (ld08_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.620836] (-) TimerEvent: {}
+[2.648638] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.721033] (-) TimerEvent: {}
+[2.821804] (-) TimerEvent: {}
+[2.922522] (-) TimerEvent: {}
+[3.023286] (-) TimerEvent: {}
+[3.034685] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.061996] (ld08_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.063709] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.066081] (ld08_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.077928] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.123464] (-) TimerEvent: {}
+[3.224150] (-) TimerEvent: {}
+[3.324808] (-) TimerEvent: {}
+[3.425614] (-) TimerEvent: {}
+[3.497263] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.525783] (-) TimerEvent: {}
+[3.526398] (ld08_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.527093] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.528697] (ld08_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.595715] (ld08_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.625921] (-) TimerEvent: {}
+[3.726551] (-) TimerEvent: {}
+[3.827292] (-) TimerEvent: {}
+[3.927973] (-) TimerEvent: {}
+[4.028716] (-) TimerEvent: {}
+[4.129366] (-) TimerEvent: {}
+[4.229928] (-) TimerEvent: {}
+[4.330556] (-) TimerEvent: {}
+[4.431197] (-) TimerEvent: {}
+[4.531785] (-) TimerEvent: {}
+[4.632388] (-) TimerEvent: {}
+[4.733040] (-) TimerEvent: {}
+[4.833722] (-) TimerEvent: {}
+[4.934300] (-) TimerEvent: {}
+[5.034890] (-) TimerEvent: {}
+[5.135489] (-) TimerEvent: {}
+[5.236138] (-) TimerEvent: {}
+[5.336715] (-) TimerEvent: {}
+[5.437310] (-) TimerEvent: {}
+[5.537927] (-) TimerEvent: {}
+[5.638643] (-) TimerEvent: {}
+[5.739480] (-) TimerEvent: {}
+[5.840099] (-) TimerEvent: {}
+[5.940755] (-) TimerEvent: {}
+[6.041431] (-) TimerEvent: {}
+[6.142059] (-) TimerEvent: {}
+[6.242730] (-) TimerEvent: {}
+[6.343360] (-) TimerEvent: {}
+[6.443973] (-) TimerEvent: {}
+[6.544563] (-) TimerEvent: {}
+[6.645122] (-) TimerEvent: {}
+[6.745712] (-) TimerEvent: {}
+[6.846321] (-) TimerEvent: {}
+[6.947027] (-) TimerEvent: {}
+[7.047865] (-) TimerEvent: {}
+[7.148836] (-) TimerEvent: {}
+[7.162681] (ld08_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.248980] (-) TimerEvent: {}
+[7.349559] (-) TimerEvent: {}
+[7.450136] (-) TimerEvent: {}
+[7.550748] (-) TimerEvent: {}
+[7.651360] (-) TimerEvent: {}
+[7.752011] (-) TimerEvent: {}
+[7.852630] (-) TimerEvent: {}
+[7.953247] (-) TimerEvent: {}
+[8.053873] (-) TimerEvent: {}
+[8.154498] (-) TimerEvent: {}
+[8.255235] (-) TimerEvent: {}
+[8.260255] (ld08_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.355394] (-) TimerEvent: {}
+[8.456049] (-) TimerEvent: {}
+[8.556678] (-) TimerEvent: {}
+[8.657295] (-) TimerEvent: {}
+[8.757929] (-) TimerEvent: {}
+[8.858558] (-) TimerEvent: {}
+[8.959199] (-) TimerEvent: {}
+[9.056773] (ld08_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.059349] (-) TimerEvent: {}
+[9.159969] (-) TimerEvent: {}
+[9.175424] (ld08_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.260136] (-) TimerEvent: {}
+[9.318355] (ld08_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.360289] (-) TimerEvent: {}
+[9.460924] (-) TimerEvent: {}
+[9.485031] (ld08_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.561078] (-) TimerEvent: {}
+[9.661729] (-) TimerEvent: {}
+[9.715699] (ld08_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.761894] (-) TimerEvent: {}
+[9.862505] (-) TimerEvent: {}
+[9.963160] (-) TimerEvent: {}
+[10.063872] (-) TimerEvent: {}
+[10.164520] (-) TimerEvent: {}
+[10.265137] (-) TimerEvent: {}
+[10.365766] (-) TimerEvent: {}
+[10.419942] (ld08_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.465938] (-) TimerEvent: {}
+[10.487267] (ld08_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.566091] (-) TimerEvent: {}
+[10.666708] (-) TimerEvent: {}
+[10.767362] (-) TimerEvent: {}
+[10.868042] (-) TimerEvent: {}
+[10.968696] (-) TimerEvent: {}
+[11.069323] (-) TimerEvent: {}
+[11.169981] (-) TimerEvent: {}
+[11.270754] (-) TimerEvent: {}
+[11.371450] (-) TimerEvent: {}
+[11.442056] (ld08_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[11.471598] (-) TimerEvent: {}
+[11.572235] (-) TimerEvent: {}
+[11.672882] (-) TimerEvent: {}
+[11.769898] (ld08_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.772999] (-) TimerEvent: {}
+[11.873604] (-) TimerEvent: {}
+[11.974272] (-) TimerEvent: {}
+[12.075059] (-) TimerEvent: {}
+[12.175718] (-) TimerEvent: {}
+[12.276354] (-) TimerEvent: {}
+[12.288261] (ld08_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.376516] (-) TimerEvent: {}
+[12.477041] (ld08_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.477655] (-) TimerEvent: {}
+[12.578274] (-) TimerEvent: {}
+[12.678952] (-) TimerEvent: {}
+[12.779686] (-) TimerEvent: {}
+[12.880480] (-) TimerEvent: {}
+[12.904469] (ld08_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.906448] (ld08_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.980676] (-) TimerEvent: {}
+[13.081460] (-) TimerEvent: {}
+[13.182465] (-) TimerEvent: {}
+[13.283262] (-) TimerEvent: {}
+[13.302685] (ld08_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.307361] (ld08_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.383460] (-) TimerEvent: {}
+[13.484230] (-) TimerEvent: {}
+[13.584898] (-) TimerEvent: {}
+[13.685594] (-) TimerEvent: {}
+[13.786238] (-) TimerEvent: {}
+[13.825259] (ld08_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.886397] (-) TimerEvent: {}
+[13.987044] (-) TimerEvent: {}
+[14.087709] (-) TimerEvent: {}
+[14.188343] (-) TimerEvent: {}
+[14.240441] (ld08_driver) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system \n'}
+[14.288461] (-) TimerEvent: {}
+[14.389063] (-) TimerEvent: {}
+[14.489650] (-) TimerEvent: {}
+[14.590384] (-) TimerEvent: {}
+[14.605527] (ld08_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.665156] (ld08_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[14.682326] (ld08_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/my_turtlebot_ws/src/build/ld08_driver\n'}
+[14.690764] (-) TimerEvent: {}
+[14.718877] (ld08_driver) CommandEnded: {'returncode': 0}
+[14.720702] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'build'}
+[14.725248] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi/my_turtlebot_ws/src/build/ld08_driver', '--', '-j4', '-l4'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/ld08_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/ld08_driver'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[14.790943] (-) TimerEvent: {}
+[14.891827] (-) TimerEvent: {}
+[14.992645] (-) TimerEvent: {}
+[14.997602] (ld08_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/cmd_interface_linux.cpp.o\x1b[0m\n'}
+[15.002608] (ld08_driver) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/lipkg.cpp.o\x1b[0m\n'}
+[15.005178] (ld08_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/main.cpp.o\x1b[0m\n'}
+[15.010775] (ld08_driver) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/slbf.cpp.o\x1b[0m\n'}
+[15.092849] (-) TimerEvent: {}
+[15.193633] (-) TimerEvent: {}
+[15.295198] (-) TimerEvent: {}
+[15.396536] (-) TimerEvent: {}
+[15.497914] (-) TimerEvent: {}
+[15.599283] (-) TimerEvent: {}
+[15.700791] (-) TimerEvent: {}
+[15.801524] (-) TimerEvent: {}
+[15.902270] (-) TimerEvent: {}
+[16.003108] (-) TimerEvent: {}
+[16.104119] (-) TimerEvent: {}
+[16.204828] (-) TimerEvent: {}
+[16.305718] (-) TimerEvent: {}
+[16.406555] (-) TimerEvent: {}
+[16.507341] (-) TimerEvent: {}
+[16.608496] (-) TimerEvent: {}
+[16.709832] (-) TimerEvent: {}
+[16.810827] (-) TimerEvent: {}
+[16.911647] (-) TimerEvent: {}
+[17.012492] (-) TimerEvent: {}
+[17.125663] (-) TimerEvent: {}
+[17.227699] (-) TimerEvent: {}
+[17.329962] (-) TimerEvent: {}
+[17.432176] (-) TimerEvent: {}
+[17.533857] (-) TimerEvent: {}
+[17.635791] (-) TimerEvent: {}
+[17.737919] (-) TimerEvent: {}
+[17.839929] (-) TimerEvent: {}
+[17.942124] (-) TimerEvent: {}
+[18.044320] (-) TimerEvent: {}
+[18.146572] (-) TimerEvent: {}
+[18.248421] (-) TimerEvent: {}
+[18.350239] (-) TimerEvent: {}
+[18.452008] (-) TimerEvent: {}
+[18.553935] (-) TimerEvent: {}
+[18.655582] (-) TimerEvent: {}
+[18.757441] (-) TimerEvent: {}
+[18.859477] (-) TimerEvent: {}
+[18.961328] (-) TimerEvent: {}
+[19.063060] (-) TimerEvent: {}
+[19.164705] (-) TimerEvent: {}
+[19.198086] (ld08_driver) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ld08_driver.dir/src/transform.cpp.o\x1b[0m\n'}
+[19.264949] (-) TimerEvent: {}
+[19.366636] (-) TimerEvent: {}
+[19.468191] (-) TimerEvent: {}
+[19.569839] (-) TimerEvent: {}
+[19.671690] (-) TimerEvent: {}
+[19.773415] (-) TimerEvent: {}
+[19.875119] (-) TimerEvent: {}
+[19.976789] (-) TimerEvent: {}
+[20.078327] (-) TimerEvent: {}
+[20.179965] (-) TimerEvent: {}
+[20.281557] (-) TimerEvent: {}
+[20.383338] (-) TimerEvent: {}
+[20.485149] (-) TimerEvent: {}
+[20.586832] (-) TimerEvent: {}
+[20.688570] (-) TimerEvent: {}
+[20.790487] (-) TimerEvent: {}
+[20.892090] (-) TimerEvent: {}
+[20.993584] (-) TimerEvent: {}
+[21.095188] (-) TimerEvent: {}
+[21.196752] (-) TimerEvent: {}
+[21.298502] (-) TimerEvent: {}
+[21.400469] (-) TimerEvent: {}
+[21.502554] (-) TimerEvent: {}
+[21.604584] (-) TimerEvent: {}
+[21.705686] (-) TimerEvent: {}
+[21.806716] (-) TimerEvent: {}
+[21.907858] (-) TimerEvent: {}
+[22.008828] (-) TimerEvent: {}
+[22.109947] (-) TimerEvent: {}
+[22.239275] (-) TimerEvent: {}
+[22.340378] (-) TimerEvent: {}
+[22.441461] (-) TimerEvent: {}
+[22.542576] (-) TimerEvent: {}
+[22.643931] (-) TimerEvent: {}
+[22.744970] (-) TimerEvent: {}
+[22.846018] (-) TimerEvent: {}
+[22.947083] (-) TimerEvent: {}
+[23.048141] (-) TimerEvent: {}
+[23.149193] (-) TimerEvent: {}
+[23.250263] (-) TimerEvent: {}
+[23.351618] (-) TimerEvent: {}
+[23.452919] (-) TimerEvent: {}
+[23.554176] (-) TimerEvent: {}
+[23.655341] (-) TimerEvent: {}
+[23.756532] (-) TimerEvent: {}
+[23.857705] (-) TimerEvent: {}
+[23.959041] (-) TimerEvent: {}
+[24.060184] (-) TimerEvent: {}
+[24.161434] (-) TimerEvent: {}
+[24.262580] (-) TimerEvent: {}
+[24.363748] (-) TimerEvent: {}
+[24.464974] (-) TimerEvent: {}
+[24.566185] (-) TimerEvent: {}
+[24.667423] (-) TimerEvent: {}
+[24.768655] (-) TimerEvent: {}
+[24.869843] (-) TimerEvent: {}
+[24.971049] (-) TimerEvent: {}
+[25.072194] (-) TimerEvent: {}
+[25.173301] (-) TimerEvent: {}
+[25.274387] (-) TimerEvent: {}
+[25.375514] (-) TimerEvent: {}
+[25.476603] (-) TimerEvent: {}
+[25.577686] (-) TimerEvent: {}
+[25.678805] (-) TimerEvent: {}
+[25.779915] (-) TimerEvent: {}
+[25.881136] (-) TimerEvent: {}
+[25.982199] (-) TimerEvent: {}
+[26.083288] (-) TimerEvent: {}
+[26.184430] (-) TimerEvent: {}
+[26.285508] (-) TimerEvent: {}
+[26.386631] (-) TimerEvent: {}
+[26.487750] (-) TimerEvent: {}
+[26.588797] (-) TimerEvent: {}
+[26.689850] (-) TimerEvent: {}
+[26.790968] (-) TimerEvent: {}
+[26.891979] (-) TimerEvent: {}
+[26.993046] (-) TimerEvent: {}
+[27.094228] (-) TimerEvent: {}
+[27.195291] (-) TimerEvent: {}
+[27.302880] (-) TimerEvent: {}
+[27.403969] (-) TimerEvent: {}
+[27.505175] (-) TimerEvent: {}
+[27.607576] (-) TimerEvent: {}
+[27.709641] (-) TimerEvent: {}
+[27.811530] (-) TimerEvent: {}
+[27.913567] (-) TimerEvent: {}
+[28.015844] (-) TimerEvent: {}
+[28.118293] (-) TimerEvent: {}
+[28.220225] (-) TimerEvent: {}
+[28.321365] (-) TimerEvent: {}
+[28.422621] (-) TimerEvent: {}
+[28.523759] (-) TimerEvent: {}
+[28.624844] (-) TimerEvent: {}
+[28.725939] (-) TimerEvent: {}
+[28.827743] (-) TimerEvent: {}
+[28.929520] (-) TimerEvent: {}
+[29.031399] (-) TimerEvent: {}
+[29.133207] (-) TimerEvent: {}
+[29.235010] (-) TimerEvent: {}
+[29.336793] (-) TimerEvent: {}
+[29.439503] (-) TimerEvent: {}
+[29.541402] (-) TimerEvent: {}
+[29.643210] (-) TimerEvent: {}
+[29.744982] (-) TimerEvent: {}
+[29.846772] (-) TimerEvent: {}
+[29.948530] (-) TimerEvent: {}
+[30.050237] (-) TimerEvent: {}
+[30.151598] (-) TimerEvent: {}
+[30.253328] (-) TimerEvent: {}
+[30.355080] (-) TimerEvent: {}
+[30.456879] (-) TimerEvent: {}
+[30.558587] (-) TimerEvent: {}
+[30.660392] (-) TimerEvent: {}
+[30.762388] (-) TimerEvent: {}
+[30.864439] (-) TimerEvent: {}
+[30.965462] (-) TimerEvent: {}
+[31.066565] (-) TimerEvent: {}
+[31.167663] (-) TimerEvent: {}
+[31.268735] (-) TimerEvent: {}
+[31.370435] (-) TimerEvent: {}
+[31.472006] (-) TimerEvent: {}
+[31.573854] (-) TimerEvent: {}
+[31.675936] (-) TimerEvent: {}
+[31.777652] (-) TimerEvent: {}
+[31.880240] (-) TimerEvent: {}
+[31.981802] (-) TimerEvent: {}
+[32.083673] (-) TimerEvent: {}
+[32.185477] (-) TimerEvent: {}
+[32.287863] (-) TimerEvent: {}
+[32.389737] (-) TimerEvent: {}
+[32.492028] (-) TimerEvent: {}
+[32.594411] (-) TimerEvent: {}
+[32.696602] (-) TimerEvent: {}
+[32.798930] (-) TimerEvent: {}
+[32.901374] (-) TimerEvent: {}
+[33.003456] (-) TimerEvent: {}
+[33.105628] (-) TimerEvent: {}
+[33.207855] (-) TimerEvent: {}
+[33.310028] (-) TimerEvent: {}
+[33.412171] (-) TimerEvent: {}
+[33.514572] (-) TimerEvent: {}
+[33.616612] (-) TimerEvent: {}
+[33.718395] (-) TimerEvent: {}
+[33.820544] (-) TimerEvent: {}
+[33.922106] (-) TimerEvent: {}
+[34.023816] (-) TimerEvent: {}
+[34.125560] (-) TimerEvent: {}
+[34.227911] (-) TimerEvent: {}
+[34.329719] (-) TimerEvent: {}
+[34.432443] (-) TimerEvent: {}
+[34.534886] (-) TimerEvent: {}
+[34.636674] (-) TimerEvent: {}
+[34.738375] (-) TimerEvent: {}
+[34.840189] (-) TimerEvent: {}
+[34.941907] (-) TimerEvent: {}
+[35.043501] (-) TimerEvent: {}
+[35.145031] (-) TimerEvent: {}
+[35.246556] (-) TimerEvent: {}
+[35.347889] (-) TimerEvent: {}
+[35.449329] (-) TimerEvent: {}
+[35.550788] (-) TimerEvent: {}
+[35.652325] (-) TimerEvent: {}
+[35.754758] (-) TimerEvent: {}
+[35.856287] (-) TimerEvent: {}
+[35.957821] (-) TimerEvent: {}
+[36.058898] (-) TimerEvent: {}
+[36.159688] (-) TimerEvent: {}
+[36.260406] (-) TimerEvent: {}
+[36.361102] (-) TimerEvent: {}
+[36.461820] (-) TimerEvent: {}
+[36.562545] (-) TimerEvent: {}
+[36.663241] (-) TimerEvent: {}
+[36.763974] (-) TimerEvent: {}
+[36.864669] (-) TimerEvent: {}
+[36.965383] (-) TimerEvent: {}
+[37.066057] (-) TimerEvent: {}
+[37.166775] (-) TimerEvent: {}
+[37.267459] (-) TimerEvent: {}
+[37.368276] (-) TimerEvent: {}
+[37.469001] (-) TimerEvent: {}
+[37.569697] (-) TimerEvent: {}
+[37.670401] (-) TimerEvent: {}
+[37.771116] (-) TimerEvent: {}
+[37.871812] (-) TimerEvent: {}
+[37.972542] (-) TimerEvent: {}
+[38.073437] (-) TimerEvent: {}
+[38.174141] (-) TimerEvent: {}
+[38.274843] (-) TimerEvent: {}
+[38.375582] (-) TimerEvent: {}
+[38.476361] (-) TimerEvent: {}
+[38.577094] (-) TimerEvent: {}
+[38.677984] (-) TimerEvent: {}
+[38.778815] (-) TimerEvent: {}
+[38.879582] (-) TimerEvent: {}
+[38.903462] (ld08_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ld08_driver\x1b[0m\n'}
+[38.979783] (-) TimerEvent: {}
+[39.080582] (-) TimerEvent: {}
+[39.181672] (-) TimerEvent: {}
+[39.282807] (-) TimerEvent: {}
+[39.383500] (-) TimerEvent: {}
+[39.484360] (-) TimerEvent: {}
+[39.585542] (-) TimerEvent: {}
+[39.686375] (-) TimerEvent: {}
+[39.787197] (-) TimerEvent: {}
+[39.887874] (-) TimerEvent: {}
+[39.988586] (-) TimerEvent: {}
+[40.083998] (ld08_driver) StdoutLine: {'line': b'[100%] Built target ld08_driver\n'}
+[40.088760] (-) TimerEvent: {}
+[40.130726] (ld08_driver) CommandEnded: {'returncode': 0}
+[40.133511] (ld08_driver) JobProgress: {'identifier': 'ld08_driver', 'progress': 'install'}
+[40.177207] (ld08_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pi/my_turtlebot_ws/src/build/ld08_driver'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/ld08_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/ld08_driver'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[40.188903] (-) TimerEvent: {}
+[40.217557] (ld08_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.218082] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/launch\n'}
+[40.218541] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/launch/ld08.launch.py\n'}
+[40.220591] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/lib/ld08_driver/ld08_driver\n'}
+[40.230792] (ld08_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pi/my_turtlebot_ws/src/install/ld08_driver/lib/ld08_driver/ld08_driver" to ""\n'}
+[40.231622] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ament_index/resource_index/package_run_dependencies/ld08_driver\n'}
+[40.233330] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ament_index/resource_index/parent_prefix_path/ld08_driver\n'}
+[40.234795] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.sh\n'}
+[40.235908] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/environment/ament_prefix_path.dsv\n'}
+[40.237030] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/environment/path.sh\n'}
+[40.238165] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/environment/path.dsv\n'}
+[40.239191] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.bash\n'}
+[40.240305] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.sh\n'}
+[40.241393] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.zsh\n'}
+[40.242462] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/local_setup.dsv\n'}
+[40.243490] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/package.dsv\n'}
+[40.244889] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ament_index/resource_index/packages/ld08_driver\n'}
+[40.246254] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.247461] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.248773] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig.cmake\n'}
+[40.249691] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/cmake/ld08_driverConfig-version.cmake\n'}
+[40.250759] (ld08_driver) StdoutLine: {'line': b'-- Installing: /home/pi/my_turtlebot_ws/src/install/ld08_driver/share/ld08_driver/package.xml\n'}
+[40.256366] (ld08_driver) CommandEnded: {'returncode': 0}
+[40.290023] (-) TimerEvent: {}
+[40.333793] (ld08_driver) JobEnded: {'identifier': 'ld08_driver', 'rc': 0}
+[40.336232] (-) EventReactorShutdown: {}

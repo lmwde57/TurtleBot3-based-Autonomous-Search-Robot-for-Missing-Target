@@ -1,0 +1,61 @@
+[0.160s] Invoking command in '/home/pi/my_turtlebot_ws/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/my_turtlebot_ws/src/build/cartographer -- -j4 -l4
+[0.712s] [  0%] [34m[1mBuilding documentation.[0m
+[0.744s] [  1%] [32mBuilding CXX object googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.814s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/configuration_file_resolver.cc.o[0m
+[0.858s] [  2%] Built target cartographer_detect_changes
+[0.986s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/fixed_ratio_sampler.cc.o[0m
+[9.069s] [01mRunning Sphinx v4.3.2[39;49;00m
+[11.585s] [01mmaking output directory... [39;49;00mdone
+[11.636s] [01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[11.649s] [01mbuilding [html]: [39;49;00mtargets for 6 source files that are out of date
+[11.652s] [01mupdating environment: [39;49;00m[new config] 6 added, 0 changed, 0 removed
+[13.160s] [01mreading sources... [39;49;00m[ 16%] [35mconfiguration[39;49;00m                                        
+[13.299s] [01mreading sources... [39;49;00m[ 33%] [35mcost_functions[39;49;00m                                       
+[13.510s] [01mreading sources... [39;49;00m[ 50%] [35mevaluation[39;49;00m                                           
+[13.739s] [01mreading sources... [39;49;00m[ 66%] [35mindex[39;49;00m                                                
+[13.816s] [01mreading sources... [39;49;00m[ 83%] [35mpbstream_migration[39;49;00m                                   
+[13.928s] [01mreading sources... [39;49;00m[100%] [35mterminology[39;49;00m                                          
+[13.929s] 
+[13.942s] [01mlooking for now-outdated files... [39;49;00mnone found
+[13.950s] [01mpickling environment... [39;49;00mdone
+[13.952s] [01mchecking consistency... [39;49;00mdone
+[13.960s] [01mpreparing documents... [39;49;00mdone
+[15.204s] [01mwriting output... [39;49;00m[ 16%] [32mconfiguration[39;49;00m                                         
+[15.413s] [01mwriting output... [39;49;00m[ 33%] [32mcost_functions[39;49;00m                                        
+[15.750s] [01mwriting output... [39;49;00m[ 50%] [32mevaluation[39;49;00m                                            
+[15.970s] [01mwriting output... [39;49;00m[ 66%] [32mindex[39;49;00m                                                 
+[16.415s] [01mwriting output... [39;49;00m[ 83%] [32mpbstream_migration[39;49;00m                                    
+[16.577s] [01mwriting output... [39;49;00m[100%] [32mterminology[39;49;00m                                           
+[16.578s] 
+[16.754s] [01mgenerating indices... [39;49;00mgenindex done
+[16.808s] [01mwriting additional pages... [39;49;00msearch done
+[16.812s] [01mcopying images... [39;49;00m[ 50%] [33mautogenerate_groundtruth.png[39;49;00m                          
+[16.815s] [01mcopying images... [39;49;00m[100%] [33mhigh_level_system_overview.png[39;49;00m                        
+[16.816s] 
+[17.078s] [01mcopying static files... [39;49;00mdone
+[17.079s] [01mcopying extra files... [39;49;00mdone
+[17.107s] [01mdumping search index in English (code: en)... [39;49;00mdone
+[17.126s] [01mdumping object inventory... [39;49;00mdone
+[17.127s] [01mbuild succeeded.[39;49;00m
+[17.134s] 
+[17.142s] The HTML pages are in html.
+[18.503s] [  2%] Built target build_doc
+[18.642s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/histogram.cc.o[0m
+[21.925s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/ceres_solver_options.cc.o[0m
+[23.971s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/internal/testing/thread_pool_for_testing.cc.o[0m
+[52.840s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/task.cc.o[0m
+[60.767s] [  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/thread_pool.cc.o[0m
+[69.079s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/time.cc.o[0m
+[76.206s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/autogenerate_ground_truth.cc.o[0m
+[79.860s] [  4%] [32m[1mLinking CXX static library ../lib/libgtest.a[0m
+[80.128s] [  4%] Built target gtest
+[88.187s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/color.cc.o[0m
+[89.304s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o[0m
+[89.463s] [  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o[0m
+[93.450s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o[0m
+[97.724s] gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:503: CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o] Interrupt
+[97.725s] gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:433: CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o] Interrupt
+[97.729s] gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:517: CMakeFiles/cartographer.dir/cartographer/io/color.cc.o] Interrupt
+[97.730s] gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:531: CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o] Interrupt
+[97.732s] gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cartographer.dir/all] Interrupt
+[97.733s] gmake: *** [Makefile:146: all] Interrupt

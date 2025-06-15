@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:741: CMakeFiles/cartographer.dir/cartographer/io/pcd_writing_points_processor.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:713: CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:755: CMakeFiles/cartographer.dir/cartographer/io/ply_writing_points_processor.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:727: CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cartographer.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

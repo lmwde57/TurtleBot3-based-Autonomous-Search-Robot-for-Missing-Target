@@ -1,0 +1,41 @@
+[0.139s] Invoking command in '/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs': /usr/bin/cmake /home/pi/my_turtlebot_ws/src/cartographer_ros/cartographer_ros_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs
+[0.185s] [0mCMake Deprecation Warning at CMakeLists.txt:15 (cmake_minimum_required):
+[0.185s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.186s]   CMake.
+[0.186s] 
+[0.187s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.187s]   CMake that the project does not need compatibility with older versions.
+[0.188s] 
+[0.188s] [0m
+[0.518s] -- The C compiler identification is GNU 11.4.0
+[0.891s] -- The CXX compiler identification is GNU 11.4.0
+[0.928s] -- Detecting C compiler ABI info
+[1.383s] -- Detecting C compiler ABI info - done
+[1.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.428s] -- Detecting C compile features
+[1.430s] -- Detecting C compile features - done
+[1.446s] -- Detecting CXX compiler ABI info
+[1.952s] -- Detecting CXX compiler ABI info - done
+[1.982s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.983s] -- Detecting CXX compile features
+[1.986s] -- Detecting CXX compile features - done
+[2.211s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[2.212s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.213s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.213s]   CMake did not find one.
+[2.214s] 
+[2.214s]   Could not find a package configuration file provided by "catkin" with any
+[2.216s]   of the following names:
+[2.216s] 
+[2.217s]     catkinConfig.cmake
+[2.218s]     catkin-config.cmake
+[2.219s] 
+[2.220s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.221s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.222s]   provides a separate development package or SDK, be sure it has been
+[2.223s]   installed.
+[2.235s] 
+[2.235s] [0m
+[2.236s] -- Configuring incomplete, errors occurred!
+[2.236s] See also "/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs/CMakeFiles/CMakeOutput.log".
+[2.237s] Invoked command in '/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs' returned '1': /usr/bin/cmake /home/pi/my_turtlebot_ws/src/cartographer_ros/cartographer_ros_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs

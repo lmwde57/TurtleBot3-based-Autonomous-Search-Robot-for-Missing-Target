@@ -1,0 +1,146 @@
+[0.127s] Invoking command in '/home/pi/my_turtlebot_ws/src/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/my_turtlebot_ws/src/build/turtlebot3_msgs -- -j4 -l4
+[0.528s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.645s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.904s] [  2%] Built target ament_cmake_python_copy_turtlebot3_msgs
+[7.551s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/turtlebot3_msgs/msg/sensor_state.hpp'
+[7.552s] gmake[2]: *** Deleting file 'rosidl_generator_c/turtlebot3_msgs/msg/sensor_state.h'
+[7.553s] Traceback (most recent call last):
+[7.554s]   File "/home/pi/my_turtlebot_ws/src/build/turtlebot3_msgs/ament_cmake_python/turtlebot3_msgs/setup.py", line 7, in <module>
+[7.557s]     packages=find_packages(
+[7.563s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/discovery.py", line 111, in find
+[7.564s] Traceback (most recent call last):
+[7.596s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[7.600s]     sys.exit(main())
+[7.602s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[7.605s]     generate_c(args.generator_arguments_file)
+[7.610s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[7.613s]     return generate_files(
+[7.615s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.624s]     expand_template(
+[7.640s]     return list(
+[7.643s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/discovery.py", line 160, in _find_iter
+[7.646s]     if include(package) and not exclude(package):
+[7.649s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/discovery.py", line 129, in <lambda>
+[7.652s]     return lambda name: any(fnmatchcase(name, pat) for pat in patterns)
+[7.656s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/discovery.py", line 129, in <genexpr>
+[7.658s]     return lambda name: any(fnmatchcase(name, pat) for pat in patterns)
+[7.661s]   File "/usr/lib/python3.10/fnmatch.py", line 76, in fnmatchcase
+[7.663s]     match = _compile_pattern(pat)
+[7.666s]   File "/usr/lib/python3.10/fnmatch.py", line 52, in _compile_pattern
+[7.668s] Traceback (most recent call last):
+[7.671s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[7.673s]     return re.compile(res).match
+[7.675s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[7.677s]     sys.exit(main())
+[7.680s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[7.682s]     generate_cpp(args.generator_arguments_file)
+[7.685s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 39, in generate_cpp
+[7.690s]     return _compile(pattern, flags)
+[7.692s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[7.694s]     return generate_files(
+[7.696s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.699s]     p = sre_compile.compile(pattern, flags)
+[7.701s]   File "/usr/lib/python3.10/sre_compile.py", line 788, in compile
+[7.703s]     expand_template(
+[7.705s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.707s]     interpreter.string(template_content, template_path, locals=data)
+[7.709s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.711s]     p = sre_parse.parse(p, flags)
+[7.713s]   File "/usr/lib/python3.10/sre_parse.py", line 955, in parse
+[7.715s]     p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+[7.717s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[7.759s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[7.795s]   File "/usr/lib/python3.10/sre_parse.py", line 841, in _parse
+[7.797s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.800s]     interpreter.string(template_content, template_path, locals=data)
+[7.802s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.804s]     p = _parse_sub(source, state, sub_verbose, nested + 1)
+[7.807s]   File "/usr/lib/python3.10/sre_parse.py", line 444, in _parse_sub
+[7.809s]     itemsappend(_parse(source, state, verbose, nested + 1,
+[7.811s]   File "/usr/lib/python3.10/sre_parse.py", line 668, in _parse
+[7.812s]     if not item or item[0][0] is AT:
+[7.814s]   File "/usr/lib/python3.10/sre_parse.py", line 161, in __len__
+[7.817s]     def __len__(self):
+[7.819s] KeyboardInterrupt
+[7.821s]     self.safe(scanner, True, locals)
+[7.823s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.826s]     self.safe(scanner, True, locals)
+[7.828s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.829s]     self.parse(scanner, locals)
+[7.831s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.832s]     self.parse(scanner, locals)
+[7.834s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[7.839s]     token.run(self, locals)
+[7.851s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[7.858s]     self.subrun(info[0][1], interpreter, locals)
+[7.860s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[7.862s]     token = scanner.one()
+[7.865s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.867s]     token.run(interpreter, locals)
+[7.869s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.871s]     interpreter.execute(self.code, locals)
+[7.873s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.875s]     token.scan(self)
+[7.878s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[7.879s]     self.subscan(scanner, self.type)
+[7.881s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[7.883s]     _exec(statements, self.globals, locals)
+[7.885s]   File "<string>", line 2, in <module>
+[7.887s]     token = scanner.one()
+[7.899s]   File "/usr/lib/python3/dist-packages/em.py", line 1961, in one
+[7.901s]     loc = self.find(self.prefix)
+[7.904s]   File "/usr/lib/python3/dist-packages/em.py", line 1794, in find
+[7.906s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[7.921s]     interpreter.string(content, str(template_path), kwargs)
+[7.923s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.925s]     return self.rest().find(sub, start)
+[7.926s] KeyboardInterrupt
+[7.929s]     self.safe(scanner, True, locals)
+[7.943s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.945s]     self.parse(scanner, locals)
+[7.947s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[7.949s]     token = scanner.one()
+[7.951s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.969s]     token.scan(self)
+[7.971s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[7.994s]     self.subscan(scanner, self.type)
+[7.996s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[8.017s]     token = scanner.one()
+[8.019s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[8.026s]     token.scan(self)
+[8.028s]   File "/usr/lib/python3/dist-packages/em.py", line 1468, in scan
+[8.039s]     self.subscan(scanner, self.type)
+[8.041s]   File "/usr/lib/python3/dist-packages/em.py", line 1483, in subscan
+[8.064s]     token = scanner.one()
+[8.066s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[8.071s]     token.scan(self)
+[8.074s]   File "/usr/lib/python3/dist-packages/em.py", line 1456, in scan
+[8.076s]     i = scanner.complex('[', ']', 0)
+[8.077s]   File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+[8.078s]     newQuote = self.check(i, quote)
+[8.080s]   File "/usr/lib/python3/dist-packages/em.py", line 1766, in check
+[8.090s]     if self[i] in '\'\"':
+[8.091s]   File "/usr/lib/python3/dist-packages/em.py", line 1683, in __getitem__
+[8.094s]     if isinstance(index, slice):
+[8.096s] KeyboardInterrupt
+[8.097s] Exception ignored in: <function Interpreter.__del__ at 0xffffa3530dc0>
+[8.099s] Traceback (most recent call last):
+[8.100s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[8.102s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[8.103s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[8.104s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[8.106s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[8.107s] gmake[2]: *** [CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/build.make:160: rosidl_generator_c/turtlebot3_msgs/msg/sensor_state.h] Interrupt
+[8.109s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/all] Interrupt
+[8.110s] Exception ignored in: <function Interpreter.__del__ at 0xffffa8dd5000>
+[8.111s] Traceback (most recent call last):
+[8.112s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[8.112s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[8.113s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[8.114s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[8.115s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[8.116s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg] Interrupt
+[8.117s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_turtlebot3_msgs_egg.dir/all] Interrupt
+[8.118s] gmake[2]: *** [CMakeFiles/turtlebot3_msgs__cpp.dir/build.make:196: rosidl_generator_cpp/turtlebot3_msgs/msg/sensor_state.hpp] Interrupt
+[8.119s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/turtlebot3_msgs__cpp.dir/all] Interrupt
+[8.121s] gmake: *** [Makefile:146: all] Interrupt

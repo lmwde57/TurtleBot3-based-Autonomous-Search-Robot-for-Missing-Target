@@ -1,0 +1,43 @@
+[0.123s] Invoking command in '/home/pi/my_turtlebot_ws/src/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/pi/my_turtlebot_ws/src/build/dynamixel_sdk -- -j4 -l4
+[0.455s] [  7%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.471s] [ 23%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.478s] [ 23%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.779s] [ 23%] Built target ament_cmake_python_copy_dynamixel_sdk
+[1.995s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[2.465s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[3.350s] [ 46%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[7.595s] gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:118: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o] Interrupt
+[7.622s] gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:132: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o] Interrupt
+[7.624s] gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:146: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o] Interrupt
+[7.632s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dynamixel_sdk.dir/all] Interrupt
+[7.664s] Traceback (most recent call last):
+[7.666s]   File "/home/pi/my_turtlebot_ws/src/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/setup.py", line 4, in <module>
+[7.668s]     setup(
+[7.672s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 86, in setup
+[7.812s]     _install_setup_requires(attrs)
+[7.814s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 75, in _install_setup_requires
+[7.817s]     dist = MinimalDistribution(attrs)
+[7.819s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 57, in __init__
+[7.826s]     super().__init__(filtered)
+[7.828s]   File "/usr/local/lib/python3.10/dist-packages/setuptools/dist.py", line 474, in __init__
+[7.987s]     for ep in metadata.entry_points(group='distutils.setup_keywords'):
+[8.002s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+[8.008s]     return SelectableGroups.load(eps).select(**params)
+[8.010s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+[8.011s]     ordered = sorted(eps, key=by_group)
+[8.013s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+[8.033s]     dist.entry_points for dist in unique(distributions())
+[8.034s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+[8.036s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[8.050s]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+[8.056s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[8.059s]   File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+[8.065s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[8.067s]   File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+[8.070s]     return self._accessor.open(self, mode, buffering, encoding, errors,
+[8.072s]   File "/usr/lib/python3.10/codecs.py", line 309, in __init__
+[8.078s]     def __init__(self, errors='strict'):
+[8.080s] KeyboardInterrupt
+[8.175s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg] Interrupt
+[8.175s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/all] Interrupt
+[8.176s] gmake: *** [Makefile:146: all] Interrupt

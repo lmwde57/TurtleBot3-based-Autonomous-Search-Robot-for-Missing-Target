@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.002047] (auto_explore_controller) JobQueued: {'identifier': 'auto_explore_controller', 'dependencies': OrderedDict()}
+[0.002176] (cartographer) JobQueued: {'identifier': 'cartographer', 'dependencies': OrderedDict()}
+[0.002651] (cartographer_ros_docs) JobQueued: {'identifier': 'cartographer_ros_docs', 'dependencies': OrderedDict()}
+[0.002736] (cartographer_ros_msgs) JobQueued: {'identifier': 'cartographer_ros_msgs', 'dependencies': OrderedDict()}
+[0.003231] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.003406] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.003661] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.003811] (ld08_driver) JobQueued: {'identifier': 'ld08_driver', 'dependencies': OrderedDict()}
+[0.003900] (mission_control) JobQueued: {'identifier': 'mission_control', 'dependencies': OrderedDict()}
+[0.003976] (multirobot_map_merge) JobQueued: {'identifier': 'multirobot_map_merge', 'dependencies': OrderedDict()}
+[0.004049] (turtlebot3_description) JobQueued: {'identifier': 'turtlebot3_description', 'dependencies': OrderedDict()}
+[0.004123] (turtlebot3_msgs) JobQueued: {'identifier': 'turtlebot3_msgs', 'dependencies': OrderedDict()}
+[0.004196] (turtlebot3_navigation2) JobQueued: {'identifier': 'turtlebot3_navigation2', 'dependencies': OrderedDict()}
+[0.004269] (turtlebot3_teleop) JobQueued: {'identifier': 'turtlebot3_teleop', 'dependencies': OrderedDict()}
+[0.004341] (cartographer_ros) JobQueued: {'identifier': 'cartographer_ros', 'dependencies': OrderedDict([('cartographer', '/home/pi/my_turtlebot_ws/src/install/cartographer'), ('cartographer_ros_msgs', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs')])}
+[0.004440] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/pi/my_turtlebot_ws/src/install/dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', '/home/pi/my_turtlebot_ws/src/install/dynamixel_sdk_custom_interfaces')])}
+[0.004525] (turtlebot3_example) JobQueued: {'identifier': 'turtlebot3_example', 'dependencies': OrderedDict([('turtlebot3_msgs', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_msgs')])}
+[0.004604] (turtlebot3_node) JobQueued: {'identifier': 'turtlebot3_node', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/pi/my_turtlebot_ws/src/install/dynamixel_sdk'), ('turtlebot3_msgs', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_msgs')])}
+[0.004727] (cartographer_rviz) JobQueued: {'identifier': 'cartographer_rviz', 'dependencies': OrderedDict([('cartographer', '/home/pi/my_turtlebot_ws/src/install/cartographer'), ('cartographer_ros_msgs', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs'), ('cartographer_ros', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros')])}
+[0.004856] (turtlebot3_bringup) JobQueued: {'identifier': 'turtlebot3_bringup', 'dependencies': OrderedDict([('dynamixel_sdk', '/home/pi/my_turtlebot_ws/src/install/dynamixel_sdk'), ('turtlebot3_description', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_msgs'), ('turtlebot3_node', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_node')])}
+[0.004971] (turtlebot3_cartographer) JobQueued: {'identifier': 'turtlebot3_cartographer', 'dependencies': OrderedDict([('cartographer', '/home/pi/my_turtlebot_ws/src/install/cartographer'), ('cartographer_ros_msgs', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs'), ('cartographer_ros', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros')])}
+[0.005053] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict([('cartographer', '/home/pi/my_turtlebot_ws/src/install/cartographer'), ('cartographer_ros_msgs', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs'), ('dynamixel_sdk', '/home/pi/my_turtlebot_ws/src/install/dynamixel_sdk'), ('turtlebot3_description', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_description'), ('turtlebot3_msgs', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_msgs'), ('turtlebot3_navigation2', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_navigation2'), ('turtlebot3_teleop', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_teleop'), ('cartographer_ros', '/home/pi/my_turtlebot_ws/src/install/cartographer_ros'), ('turtlebot3_example', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_example'), ('turtlebot3_node', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_node'), ('turtlebot3_bringup', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_bringup'), ('turtlebot3_cartographer', '/home/pi/my_turtlebot_ws/src/install/turtlebot3_cartographer')])}
+[0.005801] (cartographer) JobStarted: {'identifier': 'cartographer'}
+[0.047357] (cartographer_ros_msgs) JobStarted: {'identifier': 'cartographer_ros_msgs'}
+[0.081721] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.098942] (-) TimerEvent: {}
+[0.116776] (turtlebot3_msgs) JobStarted: {'identifier': 'turtlebot3_msgs'}
+[0.157380] (cartographer) JobProgress: {'identifier': 'cartographer', 'progress': 'cmake'}
+[0.159556] (cartographer) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/my_turtlebot_ws/src/cartographer', '-DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/cartographer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws/src/turtlebot3/turtlebot3_cartographer/launch'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/cartographer'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.175638] (cartographer_ros_msgs) JobProgress: {'identifier': 'cartographer_ros_msgs', 'progress': 'cmake'}
+[0.177673] (cartographer_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/my_turtlebot_ws/src/cartographer_ros/cartographer_ros_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws/src/turtlebot3/turtlebot3_cartographer/launch'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk')]), 'shell': False}
+[0.188359] (dynamixel_sdk) JobProgress: {'identifier': 'dynamixel_sdk', 'progress': 'cmake'}
+[0.190417] (dynamixel_sdk) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/my_turtlebot_ws/src/DynamixelSDK/ros/dynamixel_sdk', '-DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/dynamixel_sdk'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/dynamixel_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws/src/turtlebot3/turtlebot3_cartographer/launch'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/dynamixel_sdk'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.200187] (-) TimerEvent: {}
+[0.225582] (turtlebot3_msgs) JobProgress: {'identifier': 'turtlebot3_msgs', 'progress': 'cmake'}
+[0.225872] (turtlebot3_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pi/my_turtlebot_ws/src/turtlebot3_msgs', '-DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/turtlebot3_msgs'], 'cwd': '/home/pi/my_turtlebot_ws/src/build/turtlebot3_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pi'), ('SSH_CLIENT', '192.168.229.158 38142 22'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/lib:/home/pi/my_turtlebot_ws/install/multirobot_map_merge/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/lib:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/pi/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/pi'), ('OLDPWD', '/home/pi/my_turtlebot_ws/src/turtlebot3/turtlebot3_cartographer/launch'), ('SSH_TTY', '/dev/pts/7'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install:/home/pi/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '34'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/pi/.local/bin:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_example:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('PWD', '/home/pi/my_turtlebot_ws/src/build/turtlebot3_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.229.158 38142 192.168.229.58 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-02'), ('PYTHONPATH', '/home/pi/my_turtlebot_ws/build/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/build/turtlebot3_example:/home/pi/my_turtlebot_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/mission_control:/home/pi/my_turtlebot_ws/install/mission_control/lib/python3.10/site-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/pi/my_turtlebot_ws/build/auto_explore_controller:/home/pi/my_turtlebot_ws/install/auto_explore_controller/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/pi/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/pi/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pi/my_turtlebot_ws/install/turtlebot3:/home/pi/my_turtlebot_ws/install/turtlebot3_bringup:/home/pi/my_turtlebot_ws/install/turtlebot3_node:/home/pi/my_turtlebot_ws/install/turtlebot3_navigation2:/home/pi/my_turtlebot_ws/install/turtlebot3_msgs:/home/pi/my_turtlebot_ws/install/turtlebot3_description:/home/pi/my_turtlebot_ws/install/turtlebot3_cartographer:/home/pi/my_turtlebot_ws/install/multirobot_map_merge:/home/pi/my_turtlebot_ws/install/ld08_driver:/home/pi/my_turtlebot_ws/install/explore_lite:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_examples:/home/pi/my_turtlebot_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/my_turtlebot_ws/install/dynamixel_sdk:/home/pi/turtlebot3_ws/install/turtlebot3:/home/pi/turtlebot3_ws/install/turtlebot3_bringup:/home/pi/turtlebot3_ws/install/turtlebot3_node:/home/pi/turtlebot3_ws/install/turtlebot3_msgs:/home/pi/turtlebot3_ws/install/turtlebot3_description:/home/pi/turtlebot3_ws/install/ld08_driver:/home/pi/turtlebot3_ws/install/dynamixel_sdk_examples:/home/pi/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/pi/turtlebot3_ws/install/dynamixel_sdk:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.231622] (cartographer_ros_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:15 (cmake_minimum_required):\n'}
+[0.232737] (cartographer_ros_msgs) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.233221] (cartographer_ros_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.233763] (cartographer_ros_msgs) StderrLine: {'line': b'\n'}
+[0.234306] (cartographer_ros_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.234864] (cartographer_ros_msgs) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.235327] (cartographer_ros_msgs) StderrLine: {'line': b'\n'}
+[0.235768] (cartographer_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.300383] (-) TimerEvent: {}
+[0.401409] (-) TimerEvent: {}
+[0.503023] (-) TimerEvent: {}
+[0.511072] (cartographer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.564855] (cartographer_ros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.568975] (dynamixel_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.603921] (-) TimerEvent: {}
+[0.612741] (turtlebot3_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.704224] (-) TimerEvent: {}
+[0.806250] (-) TimerEvent: {}
+[0.897362] (cartographer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.906567] (-) TimerEvent: {}
+[0.913349] (dynamixel_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.937814] (cartographer_ros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.941800] (cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.949923] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.962110] (turtlebot3_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.975859] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.994912] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.006758] (-) TimerEvent: {}
+[1.108239] (-) TimerEvent: {}
+[1.210054] (-) TimerEvent: {}
+[1.311184] (-) TimerEvent: {}
+[1.387562] (cartographer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.411459] (-) TimerEvent: {}
+[1.414275] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.430062] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.434247] (cartographer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.435426] (cartographer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.436801] (cartographer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.441023] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.441946] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.443041] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.444425] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.449386] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.456613] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.467433] (turtlebot3_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.468619] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.470382] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.473387] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.475206] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.477732] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.484260] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.493224] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.511641] (-) TimerEvent: {}
+[1.613116] (-) TimerEvent: {}
+[1.740450] (-) TimerEvent: {}
+[1.842081] (-) TimerEvent: {}
+[1.944746] (-) TimerEvent: {}
+[1.992174] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.994767] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.998456] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.999198] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.021175] (dynamixel_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.022132] (cartographer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.022686] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.023515] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.024296] (dynamixel_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.025122] (cartographer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.029173] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.030406] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.031323] (cartographer) StdoutLine: {'line': b'-- Build type: Release\n'}
+[2.032144] (turtlebot3_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.033183] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.033591] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.034948] (turtlebot3_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.044915] (-) TimerEvent: {}
+[2.092896] (cartographer) StdoutLine: {'line': b'Files /home/pi/my_turtlebot_ws/src/build/cartographer/AllFiles.cmake and - differ\n'}
+[2.098676] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[2.101451] (dynamixel_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.145101] (-) TimerEvent: {}
+[2.246459] (-) TimerEvent: {}
+[2.258305] (cartographer_ros_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:24 (find_package):\n'}
+[2.259512] (cartographer_ros_msgs) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[2.260336] (cartographer_ros_msgs) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[2.260908] (cartographer_ros_msgs) StderrLine: {'line': b'  CMake did not find one.\n'}
+[2.261364] (cartographer_ros_msgs) StderrLine: {'line': b'\n'}
+[2.261832] (cartographer_ros_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[2.262370] (cartographer_ros_msgs) StderrLine: {'line': b'  of the following names:\n'}
+[2.263642] (cartographer_ros_msgs) StderrLine: {'line': b'\n'}
+[2.264463] (cartographer_ros_msgs) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[2.265125] (cartographer_ros_msgs) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[2.265822] (cartographer_ros_msgs) StderrLine: {'line': b'\n'}
+[2.266786] (cartographer_ros_msgs) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[2.267914] (cartographer_ros_msgs) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[2.269028] (cartographer_ros_msgs) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[2.270173] (cartographer_ros_msgs) StderrLine: {'line': b'  installed.\n'}
+[2.270622] (cartographer_ros_msgs) StderrLine: {'line': b'\n'}
+[2.282770] (cartographer_ros_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.283347] (cartographer_ros_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.283838] (cartographer_ros_msgs) StdoutLine: {'line': b'See also "/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[2.284199] (cartographer_ros_msgs) CommandEnded: {'returncode': 1}
+[2.346688] (-) TimerEvent: {}
+[2.400925] (cartographer_ros_msgs) JobEnded: {'identifier': 'cartographer_ros_msgs', 'rc': 1}
+[2.447141] (-) TimerEvent: {}
+[2.548846] (-) TimerEvent: {}
+[2.649707] (-) TimerEvent: {}
+[2.751316] (-) TimerEvent: {}
+[2.854115] (-) TimerEvent: {}
+[2.956138] (-) TimerEvent: {}
+[3.057910] (-) TimerEvent: {}
+[3.158766] (-) TimerEvent: {}
+[3.260711] (-) TimerEvent: {}
+[3.362703] (-) TimerEvent: {}
+[3.464735] (-) TimerEvent: {}
+[3.566595] (-) TimerEvent: {}
+[3.668748] (-) TimerEvent: {}
+[3.770489] (-) TimerEvent: {}
+[3.872140] (-) TimerEvent: {}
+[3.974872] (-) TimerEvent: {}
+[4.076616] (-) TimerEvent: {}
+[4.178295] (-) TimerEvent: {}
+[4.280097] (-) TimerEvent: {}
+[4.381886] (-) TimerEvent: {}
+[4.483735] (-) TimerEvent: {}
+[4.585821] (-) TimerEvent: {}
+[4.687878] (-) TimerEvent: {}
+[4.791760] (-) TimerEvent: {}
+[4.894991] (-) TimerEvent: {}
+[4.997123] (-) TimerEvent: {}
+[5.100617] (-) TimerEvent: {}
+[5.202281] (-) TimerEvent: {}
+[5.305707] (-) TimerEvent: {}
+[5.408223] (-) TimerEvent: {}
+[5.509635] (-) TimerEvent: {}
+[5.611001] (-) TimerEvent: {}
+[5.712409] (-) TimerEvent: {}
+[5.813905] (-) TimerEvent: {}
+[5.915581] (-) TimerEvent: {}
+[6.017381] (-) TimerEvent: {}
+[6.119097] (-) TimerEvent: {}
+[6.220796] (-) TimerEvent: {}
+[6.322509] (-) TimerEvent: {}
+[6.424353] (-) TimerEvent: {}
+[6.526131] (-) TimerEvent: {}
+[6.627859] (-) TimerEvent: {}
+[6.746196] (-) TimerEvent: {}
+[6.849088] (-) TimerEvent: {}
+[6.930967] (dynamixel_sdk) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.931680] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.949260] (-) TimerEvent: {}
+[7.051447] (-) TimerEvent: {}
+[7.153111] (-) TimerEvent: {}
+[7.255034] (-) TimerEvent: {}
+[7.357940] (-) TimerEvent: {}
+[7.453034] (cartographer) StdoutLine: {'line': b'-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[7.457941] (cartographer) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.458461] (-) TimerEvent: {}
+[7.559697] (-) TimerEvent: {}
+[7.661232] (-) TimerEvent: {}
+[7.762664] (-) TimerEvent: {}
+[7.823663] (cartographer) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.824770] (cartographer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.862893] (-) TimerEvent: {}
+[7.964379] (-) TimerEvent: {}
+[8.065940] (-) TimerEvent: {}
+[8.167505] (-) TimerEvent: {}
+[8.193070] (cartographer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.196627] (cartographer) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.215606] (cartographer) StdoutLine: {'line': b'-- Found GMock: gmock_main  \n'}
+[8.267639] (-) TimerEvent: {}
+[8.369153] (-) TimerEvent: {}
+[8.470535] (-) TimerEvent: {}
+[8.501566] (cartographer) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams \n'}
+[8.570735] (-) TimerEvent: {}
+[8.672020] (-) TimerEvent: {}
+[8.720114] (cartographer) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3\n'}
+[8.772171] (-) TimerEvent: {}
+[8.833811] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.850444] (cartographer) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[8.852967] (cartographer) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[8.856397] (cartographer) StdoutLine: {'line': b'-- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]\n'}
+[8.872369] (-) TimerEvent: {}
+[8.925401] (cartographer) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[8.926197] (cartographer) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Lua) does\n'}
+[8.926646] (cartographer) StderrLine: {'line': b'  not match the name of the calling package (LuaGoogle).  This can lead to\n'}
+[8.927152] (cartographer) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[8.927503] (cartographer) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[8.927851] (cartographer) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.928239] (cartographer) StderrLine: {'line': b'  cmake/modules/FindLuaGoogle.cmake:211 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)\n'}
+[8.928727] (cartographer) StderrLine: {'line': b'  CMakeLists.txt:41 (find_package)\n'}
+[8.929098] (cartographer) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[8.929437] (cartographer) StderrLine: {'line': b'\x1b[0m\n'}
+[8.929799] (cartographer) StdoutLine: {'line': b'-- Found Lua: /usr/lib/aarch64-linux-gnu/liblua5.2.so;/usr/lib/aarch64-linux-gnu/libm.so (found version "5.2.4") \n'}
+[8.952063] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.972696] (-) TimerEvent: {}
+[9.026283] (dynamixel_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.063177] (dynamixel_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[9.072817] (-) TimerEvent: {}
+[9.076174] (dynamixel_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/my_turtlebot_ws/src/build/dynamixel_sdk\n'}
+[9.090971] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 'SIGINT'}
+[9.093975] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.117876] (cartographer) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3.0.0") \n'}
+[9.142942] (cartographer) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[9.144006] (cartographer) StdoutLine: {'line': b"-- Checking for one of the modules 'cairo>=1.12.16'\n"}
+[9.172985] (-) TimerEvent: {}
+[9.239880] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.273237] (-) TimerEvent: {}
+[9.374290] (-) TimerEvent: {}
+[9.448486] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.474467] (-) TimerEvent: {}
+[9.488036] (cartographer) StdoutLine: {'line': b'-- Found Sphinx: /usr/bin/sphinx-build  \n'}
+[9.574642] (-) TimerEvent: {}
+[9.675369] (-) TimerEvent: {}
+[9.776078] (-) TimerEvent: {}
+[9.781303] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[9.876246] (-) TimerEvent: {}
+[9.920560] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[9.976419] (-) TimerEvent: {}
+[9.991464] (cartographer) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.016910] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.076601] (-) TimerEvent: {}
+[10.177926] (-) TimerEvent: {}
+[10.278893] (-) TimerEvent: {}
+[10.380004] (-) TimerEvent: {}
+[10.480730] (-) TimerEvent: {}
+[10.581484] (-) TimerEvent: {}
+[10.682193] (-) TimerEvent: {}
+[10.782963] (-) TimerEvent: {}
+[10.883647] (-) TimerEvent: {}
+[10.984528] (-) TimerEvent: {}
+[11.085373] (-) TimerEvent: {}
+[11.186040] (-) TimerEvent: {}
+[11.287420] (-) TimerEvent: {}
+[11.385469] (cartographer) StdoutLine: {'line': b'-- Generating done\n'}
+[11.387575] (-) TimerEvent: {}
+[11.488389] (-) TimerEvent: {}
+[11.589075] (-) TimerEvent: {}
+[11.689738] (-) TimerEvent: {}
+[11.790518] (-) TimerEvent: {}
+[11.893108] (-) TimerEvent: {}
+[11.896650] (cartographer) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/my_turtlebot_ws/src/build/cartographer\n'}
+[11.955428] (cartographer) JobEnded: {'identifier': 'cartographer', 'rc': 'SIGINT'}
+[11.993324] (-) TimerEvent: {}
+[12.029673] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.12 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[12.088217] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.12 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[12.093473] (-) TimerEvent: {}
+[12.147001] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.12 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[12.193651] (-) TimerEvent: {}
+[12.206643] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[12.293814] (-) TimerEvent: {}
+[12.394448] (-) TimerEvent: {}
+[12.495136] (-) TimerEvent: {}
+[12.595893] (-) TimerEvent: {}
+[12.696587] (-) TimerEvent: {}
+[12.797325] (-) TimerEvent: {}
+[12.897976] (-) TimerEvent: {}
+[12.998619] (-) TimerEvent: {}
+[13.099235] (-) TimerEvent: {}
+[13.199870] (-) TimerEvent: {}
+[13.300496] (-) TimerEvent: {}
+[13.401132] (-) TimerEvent: {}
+[13.501739] (-) TimerEvent: {}
+[13.602371] (-) TimerEvent: {}
+[13.703041] (-) TimerEvent: {}
+[13.803706] (-) TimerEvent: {}
+[13.904334] (-) TimerEvent: {}
+[14.004938] (-) TimerEvent: {}
+[14.105533] (-) TimerEvent: {}
+[14.206185] (-) TimerEvent: {}
+[14.306843] (-) TimerEvent: {}
+[14.407427] (-) TimerEvent: {}
+[14.508066] (-) TimerEvent: {}
+[14.608678] (-) TimerEvent: {}
+[14.644616] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.708869] (-) TimerEvent: {}
+[14.809526] (-) TimerEvent: {}
+[14.910213] (-) TimerEvent: {}
+[15.010856] (-) TimerEvent: {}
+[15.111492] (-) TimerEvent: {}
+[15.212207] (-) TimerEvent: {}
+[15.312783] (-) TimerEvent: {}
+[15.413539] (-) TimerEvent: {}
+[15.514566] (-) TimerEvent: {}
+[15.562878] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.614740] (-) TimerEvent: {}
+[15.711715] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[15.714867] (-) TimerEvent: {}
+[15.764634] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[15.815032] (-) TimerEvent: {}
+[15.915684] (-) TimerEvent: {}
+[15.930217] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[15.930922] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.931284] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[15.931602] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[16.015812] (-) TimerEvent: {}
+[16.062448] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[16.115975] (-) TimerEvent: {}
+[16.216596] (-) TimerEvent: {}
+[16.317384] (-) TimerEvent: {}
+[16.418290] (-) TimerEvent: {}
+[16.518970] (-) TimerEvent: {}
+[16.619579] (-) TimerEvent: {}
+[16.720275] (-) TimerEvent: {}
+[16.821202] (-) TimerEvent: {}
+[16.880282] (turtlebot3_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /home/pi/.local/lib/python3.10/site-packages/numpy/core/include\n'}
+[16.921360] (-) TimerEvent: {}
+[17.022006] (-) TimerEvent: {}
+[17.047078] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.12 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[17.105271] (turtlebot3_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.12 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[17.122174] (-) TimerEvent: {}
+[17.155247] (turtlebot3_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.222354] (-) TimerEvent: {}
+[17.323004] (-) TimerEvent: {}
+[17.401226] (turtlebot3_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[17.423174] (-) TimerEvent: {}
+[17.457049] (turtlebot3_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pi/my_turtlebot_ws/src/build/turtlebot3_msgs\n'}
+[17.498117] (turtlebot3_msgs) JobEnded: {'identifier': 'turtlebot3_msgs', 'rc': 'SIGINT'}
+[17.501624] (auto_explore_controller) JobSkipped: {'identifier': 'auto_explore_controller'}
+[17.501759] (cartographer_ros_docs) JobSkipped: {'identifier': 'cartographer_ros_docs'}
+[17.501834] (dynamixel_sdk_custom_interfaces) JobSkipped: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[17.501906] (explore_lite) JobSkipped: {'identifier': 'explore_lite'}
+[17.501976] (ld08_driver) JobSkipped: {'identifier': 'ld08_driver'}
+[17.502046] (mission_control) JobSkipped: {'identifier': 'mission_control'}
+[17.502115] (multirobot_map_merge) JobSkipped: {'identifier': 'multirobot_map_merge'}
+[17.502183] (turtlebot3_description) JobSkipped: {'identifier': 'turtlebot3_description'}
+[17.502253] (turtlebot3_navigation2) JobSkipped: {'identifier': 'turtlebot3_navigation2'}
+[17.502335] (turtlebot3_teleop) JobSkipped: {'identifier': 'turtlebot3_teleop'}
+[17.502422] (cartographer_ros) JobSkipped: {'identifier': 'cartographer_ros'}
+[17.502511] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[17.502598] (turtlebot3_example) JobSkipped: {'identifier': 'turtlebot3_example'}
+[17.502685] (turtlebot3_node) JobSkipped: {'identifier': 'turtlebot3_node'}
+[17.502772] (cartographer_rviz) JobSkipped: {'identifier': 'cartographer_rviz'}
+[17.502906] (turtlebot3_bringup) JobSkipped: {'identifier': 'turtlebot3_bringup'}
+[17.502999] (turtlebot3_cartographer) JobSkipped: {'identifier': 'turtlebot3_cartographer'}
+[17.503086] (turtlebot3) JobSkipped: {'identifier': 'turtlebot3'}
+[17.503176] (-) EventReactorShutdown: {}

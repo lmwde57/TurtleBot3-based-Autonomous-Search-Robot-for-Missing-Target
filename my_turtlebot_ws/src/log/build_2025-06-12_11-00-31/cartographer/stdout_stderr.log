@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target cartographer[0m
+[  0%] [34m[1mBuilding documentation.[0m
+[  1%] Built target gtest
+[  1%] Built target cartographer_detect_changes
+[  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o[0m
+[01mRunning Sphinx v4.3.2[39;49;00m
+[01mloading pickled environment... [39;49;00mdone
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 0 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mno targets are out of date.[39;49;00m
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in html.
+[  2%] Built target build_doc
+[  2%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/color.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/counting_points_processor.cc.o[0m
+[  3%] [32m[1mLinking CXX static library ../lib/libgmock.a[0m
+[  3%] Built target gmock
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/draw_trajectories.cc.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/file_writer.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/fixed_ratio_sampling_points_processor.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/frame_id_filtering_points_processor.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/hybrid_grid_points_processor.cc.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/image.cc.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/intensity_to_color_points_processor.cc.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/in_memory_proto_stream.cc.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/mapping_state_serialization.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_info.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/internal/pbstream_migrate.cc.o[0m
+[  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  6%] [32m[1mLinking CXX static library ../lib/libgmock_main.a[0m
+[  6%] Built target gmock_main
+[  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/pcd_writing_points_processor.cc.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/cartographer.dir/cartographer/io/ply_writing_points_processor.cc.o[0m
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:741: CMakeFiles/cartographer.dir/cartographer/io/pcd_writing_points_processor.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:713: CMakeFiles/cartographer.dir/cartographer/io/min_max_range_filtering_points_processor.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:755: CMakeFiles/cartographer.dir/cartographer/io/ply_writing_points_processor.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:727: CMakeFiles/cartographer.dir/cartographer/io/outlier_removing_points_processor.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cartographer.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

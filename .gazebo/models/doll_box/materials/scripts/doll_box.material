@@ -1,0 +1,20 @@
+material DollBox/Image
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      specular 0.1 0.1 0.1 1
+
+      texture_unit
+      {
+        texture doll.jpg
+        filtering anisotropic
+        scale 1 1
+      }
+    }
+  }
+}
+

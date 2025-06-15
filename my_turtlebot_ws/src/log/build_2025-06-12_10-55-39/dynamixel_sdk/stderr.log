@@ -1,0 +1,35 @@
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:118: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:132: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:146: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/dynamixel_sdk.dir/all] Interrupt
+Traceback (most recent call last):
+  File "/home/pi/my_turtlebot_ws/src/build/dynamixel_sdk/ament_cmake_python/dynamixel_sdk/setup.py", line 4, in <module>
+    setup(
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 86, in setup
+    _install_setup_requires(attrs)
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 75, in _install_setup_requires
+    dist = MinimalDistribution(attrs)
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/__init__.py", line 57, in __init__
+    super().__init__(filtered)
+  File "/usr/local/lib/python3.10/dist-packages/setuptools/dist.py", line 474, in __init__
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1021, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 459, in load
+    ordered = sorted(eps, key=by_group)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 1019, in <genexpr>
+    dist.entry_points for dist in unique(distributions())
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 631, in entry_points
+    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+  File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 927, in read_text
+    return self._path.joinpath(filename).read_text(encoding='utf-8')
+  File "/usr/lib/python3.10/pathlib.py", line 1134, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+  File "/usr/lib/python3.10/codecs.py", line 309, in __init__
+    def __init__(self, errors='strict'):
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_dynamixel_sdk_egg.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

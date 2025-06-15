@@ -1,0 +1,45 @@
+[0.157s] Invoking command in '/home/pi/my_turtlebot_ws/src/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi/my_turtlebot_ws/install/turtlebot3_teleop:/home/pi/my_turtlebot_ws/install/turtlebot3_example:/home/pi/my_turtlebot_ws/install/mission_control:/home/pi/my_turtlebot_ws/install/auto_explore_controller:/home/pi/turtlebot3_ws/install/turtlebot3_teleop:/home/pi/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/pi/my_turtlebot_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer
+[0.506s] -- The C compiler identification is GNU 11.4.0
+[0.892s] -- The CXX compiler identification is GNU 11.4.0
+[0.936s] -- Detecting C compiler ABI info
+[1.383s] -- Detecting C compiler ABI info - done
+[1.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.430s] -- Detecting C compile features
+[1.431s] -- Detecting C compile features - done
+[1.444s] -- Detecting CXX compiler ABI info
+[1.987s] -- Detecting CXX compiler ABI info - done
+[2.017s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.018s] -- Detecting CXX compile features
+[2.020s] -- Detecting CXX compile features - done
+[2.026s] -- Build type: Release
+[2.087s] Files /home/pi/my_turtlebot_ws/src/build/cartographer/AllFiles.cmake and - differ
+[7.448s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.452s] -- Looking for pthread.h
+[7.818s] -- Looking for pthread.h - found
+[7.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.188s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.191s] -- Found Threads: TRUE  
+[8.210s] -- Found GMock: gmock_main  
+[8.496s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams 
+[8.715s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[8.845s] -- Found required Ceres dependency: glog
+[8.847s] -- Found required Ceres dependency: gflags
+[8.851s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[8.920s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.921s]   The package name passed to `find_package_handle_standard_args` (Lua) does
+[8.921s]   not match the name of the calling package (LuaGoogle).  This can lead to
+[8.921s]   problems in calling code that expects `find_package` result variables
+[8.922s]   (e.g., `_FOUND`) to follow a certain pattern.
+[8.922s] Call Stack (most recent call first):
+[8.923s]   cmake/modules/FindLuaGoogle.cmake:211 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[8.923s]   CMakeLists.txt:41 (find_package)
+[8.923s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.924s] [0m
+[8.924s] -- Found Lua: /usr/lib/aarch64-linux-gnu/liblua5.2.so;/usr/lib/aarch64-linux-gnu/libm.so (found version "5.2.4") 
+[9.112s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3.0.0") 
+[9.137s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[9.138s] -- Checking for one of the modules 'cairo>=1.12.16'
+[9.483s] -- Found Sphinx: /usr/bin/sphinx-build  
+[9.986s] -- Configuring done
+[11.380s] -- Generating done
+[11.891s] -- Build files have been written to: /home/pi/my_turtlebot_ws/src/build/cartographer

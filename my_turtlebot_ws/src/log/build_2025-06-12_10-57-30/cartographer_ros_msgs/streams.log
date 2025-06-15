@@ -1,0 +1,29 @@
+[0.142s] Invoking command in '/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs': /usr/bin/cmake /home/pi/my_turtlebot_ws/src/cartographer_ros/cartographer_ros_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs
+[0.189s] [0mCMake Deprecation Warning at CMakeLists.txt:15 (cmake_minimum_required):
+[0.189s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.190s]   CMake.
+[0.191s] 
+[0.191s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.192s]   CMake that the project does not need compatibility with older versions.
+[0.192s] 
+[0.193s] [0m
+[0.488s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[0.489s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.489s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.490s]   CMake did not find one.
+[0.490s] 
+[0.490s]   Could not find a package configuration file provided by "catkin" with any
+[0.491s]   of the following names:
+[0.492s] 
+[0.492s]     catkinConfig.cmake
+[0.493s]     catkin-config.cmake
+[0.494s] 
+[0.495s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.495s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.496s]   provides a separate development package or SDK, be sure it has been
+[0.497s]   installed.
+[0.502s] 
+[0.503s] [0m
+[0.504s] -- Configuring incomplete, errors occurred!
+[0.504s] See also "/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs/CMakeFiles/CMakeOutput.log".
+[0.522s] Invoked command in '/home/pi/my_turtlebot_ws/src/build/cartographer_ros_msgs' returned '1': /usr/bin/cmake /home/pi/my_turtlebot_ws/src/cartographer_ros/cartographer_ros_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/pi/my_turtlebot_ws/src/install/cartographer_ros_msgs

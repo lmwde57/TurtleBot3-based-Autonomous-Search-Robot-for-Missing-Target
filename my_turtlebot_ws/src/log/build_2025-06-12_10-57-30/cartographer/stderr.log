@@ -1,0 +1,6 @@
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:503: CMakeFiles/cartographer.dir/cartographer/ground_truth/relations_text_file.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:433: CMakeFiles/cartographer.dir/cartographer/common/lua_parameter_dictionary.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:517: CMakeFiles/cartographer.dir/cartographer/io/color.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/cartographer.dir/build.make:531: CMakeFiles/cartographer.dir/cartographer/io/coloring_points_processor.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:335: CMakeFiles/cartographer.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
