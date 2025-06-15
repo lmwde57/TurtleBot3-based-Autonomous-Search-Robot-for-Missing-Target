@@ -104,7 +104,7 @@ echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 ### [4] YOLO 설치
-#### 4-1.
+#### 4-1. Python 패키지 사전 설치 (YOLO V5 관련)
 ```bash
 pip install torch torchvision opencv-python numpy
 ```
@@ -145,7 +145,8 @@ ros2 run mission_control mission_manager
 ```
 #### 1-7-1. 객체 소환 참고
 home에서 **ctrl+H** 버튼을 눌러 hiddenfile을 확인하면 **.gazebo**가 보임. <br>
-해당 파일에 github에 올라와 있는 **.gazebo** 내부의 **model**을 넣어줌.
+해당 파일에 github에 올라와 있는 **.gazebo** 내부에 **model**및 **doll_box** 폴더를 생성한 후 넣어줌. <br>
+(github에 .gazebo/models/doll_box로 나와있기에)
 
 #### 1-7-2. 객체 소환 명령
 ```bash
