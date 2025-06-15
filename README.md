@@ -189,7 +189,7 @@ ros2 run explore_lite explore --ros-args --params-file /home/pi/my_turtlebot_ws/
 
 #### 3-2. 카메라 설정법
 라즈베리파이 (ssh 접속) <br>
-ros2 launch rasp.py # 카메라 실행 <br>
+ros2 launch rasp.py # 카메라 실행 <br><br>
 컴퓨터 <br>
 python3 yoloserv.py # 카메라 이미지에 대해 yolo 추론 실행, 이후 결과 bool형의 /doll_detected 반환 <br>
 ros2 run rqt_image_view rqt_image_view /yolov5/image_annotated #이미지 추론 확인용, 꼭 실행할 필요는 없음 <br>
