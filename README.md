@@ -11,6 +11,7 @@
    - [터틀봇3 실행](#2-터틀봇3-실행)  
    - [YOLO 실행](#4-yolo-설치)
 
+###### (태그를 누르면 해당하는 목차로 이동합니다.)
 # 실행환경
 UBUNTU 22.04<br>
 ROS2 HUMBLE<br>
@@ -165,4 +166,22 @@ ros2 run mission_control mission_manager
 #### 2-5. 탐색
 ```bash
 ros2 run explore_lite explore --ros-args --params-file /home/pi/my_turtlebot_ws/param/explore_params.yaml -p use_sim_time:=False
+```
+### 3. YOLO 실행
+#### 3-1. rasp.py 이동
+**rasp.py** 파일을 라즈베리파이의 홈 폴더로 옮긴 후 진행 
+
+#### 3-2. 카메라 설정법
+라즈베리파이 (ssh 접속) <br>
+ros2 launch rasp.py # 카메라 실행 <br>
+컴퓨터 <br>
+python3 yoloserv.py # 카메라 이미지에 대해 yolo 추론 실행, 이후 결과 bool형의 /doll_detected 반환 <br>
+ros2 run rqt_image_view rqt_image_view /yolov5/image_annotated #이미지 추론 확인용, 꼭 실행할 필요는 없음 <br>
+ 
+#### 3-3. 참고: 오류 발생시 설치할 것
+```bash
+pip install torch torchvision
+pip install opencv-python
+sudo apt install ros-humble-cv-bridge
+pip install numpy
 ```
