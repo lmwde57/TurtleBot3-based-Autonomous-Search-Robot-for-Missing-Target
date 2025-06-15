@@ -1,51 +1,168 @@
 ## TurtleBot3-based-Autonomous-Search-Robot-for-Missing-Target
 # 실행 관련 지침 (Instruction)
 ## 목차
-- [실행환경](#실행환경)
-- [Phase 1: 기본 환경 구성](#phase-1-기본-환경-구성)
-- [Phase 2: 우리 패키지 블록들 실행](#Phase-2-우리-패키지-블록들-실행)
-- [Phase 3: 탐색시작 + 타이머](#Phase-3-탐색-시작--타이머)
-- [Expected Result](#Expected-Result-Post-condition)
+1. [설치목록](#1-설치목록)  
+   - [기본 세팅](#1-1-시스템-패키지-설치)  
+   - [시뮬레이션 설치](#2-시뮬레이션-설치)  
+   - [터틀봇3 설치 (설정)](#3-터틀봇3-설치-설정)  
+   - [YOLO 설치](#4-yolo-설치)  
+2. [실행법](#2-실행법)  
+   - [시뮬레이션 실행](#1-시뮬레이션-실행)  
+   - [터틀봇3 실행](#2-터틀봇3-실행)  
+   - [YOLO 실행](#4-yolo-설치)
+
 # 실행환경
 UBUNTU 22.04<br>
-ROS2 HUMBLE
+ROS2 HUMBLE<br>
+Simulation GPU : GTX1060 3GB
+## 1. 설치목록
 
+### [1] 기본 세팅
+
+시뮬레이션과 실제 로봇 환경 **모두에** 반드시 설치해야 하는 공통 패키지 및 소스 코드.
+
+#### **1-1. 시스템 패키지 설치**
 ```bash
 sudo apt update
-sudo apt install -y \
-  ros-humble-slam-toolbox \
-  ros-humble-navigation2 \
-  ros-humble-nav2-bringup \
-  ros-humble-rviz2 \
-  ros-humble-tf2-tools```
-slam-toolbox: 지도 생성을 위한 SLAM 패키지
+sudo apt install -y
+  ros-humble-slam-toolbox
+  ros-humble-navigation2
+  ros-humble-nav2-bringup
+  ros-humble-rviz2
+  ros-humble-tf2-tools
+```
 
-navigation2, nav2-bringup: 자율 주행을 위한 내비게이션 스택
+#### **1-2. 소스 코드 다운로드**
+(GitHub 저장소에 `turtlebot3`, `DynamixelSDK` 등이 이미 포함되어 있으므로, 해당 저장소만 클론.)
+```bash
+# ROS 2 작업 환경 생성 및 이동
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
 
-rviz2: 3D 시각화 도구
+# 프로젝트 저장소를 클론합니다.
+git clone https://github.com/lmwde57/TurtleBot3-based-Autonomous-Search-Robot-for-Missing-Target.git
 
-tf2-tools: 좌표계 변환(TF) 디버깅 도구
+# 다운로드된 폴더 안의 실제 패키지들을 src 폴더로 이동시킵니다.
+mv TurtleBot3-based-Autonomous-Search-Robot-for-Missing-Target/my_turtlebot_ws/src/* .
+rm -rf TurtleBot3-based-Autonomous-Search-Robot-for-Missing-Target
+```
+---
 
-2. 시뮬레이션 전용 패키지
-Gazebo 가상 환경에서 테스트할 경우에만 추가로 설치하는 패키지입니다.
+### [2] 시뮬레이션 설치
 
-bash
+**가상 환경(Gazebo)에서만** 프로젝트를 실행할 경우 추가로 필요한 설정입니다.
+
+#### **2-1. 시뮬레이터 패키지 설치**
+```bash
 sudo apt install -y ros-humble-gazebo-*
-ros-humble-gazebo-*: Gazebo 시뮬레이터 및 관련 ROS 2 패키지 전체
+```
 
-3. 실제 로봇 전용 패키지
-실제 TurtleBot3 하드웨어로 구동할 경우에만 추가로 설치하는 패키지입니다.
+#### **2-2. 시뮬레이션용 소스 코드 다운로드**
+```bash
+cd ~/ros2_ws/src
+git clone -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+```
+---
 
-bash
+### [3] 터틀봇3 설치 (설정)
+
+**실제 TurtleBot3 하드웨어로** 구동할 경우 추가로 필요한 설정입니다.
+
+#### **3-1. 하드웨어 드라이버 및 라이브러리 설치**
+```bash
 sudo apt install -y \
   ros-humble-dynamixel-sdk \
-  ros-humble-turtlebot3-msgs \
-  ros-humble-hls-lfcd-lds-driver \
   libudev-dev
-dynamixel-sdk: 다이나믹셀 모터 제어용 SDK
+```
+#### **3-2. 라이다(LiDAR) 센서 설정**
+```bash
+# 최신 LDS-02 모델을 사용하는 경우 드라이버 소스 코드 다운로드
+cd ~/ros2_ws/src
+git clone -b humble https://github.com/ROBOTIS-GIT/ld08_driver.git
 
-turtlebot3-msgs: TurtleBot3 전용 메시지 타입
+# 터미널 환경에 사용할 라이다 모델을 지정 (LDS-02 사용 시)
+echo 'export LDS_MODEL=LDS-02' >> ~/.bashrc
+```
 
-hls-lfcd-lds-driver: 구형 LDS-01 라이다 센서 드라이버
+#### **3-3. USB 포트 권한 설정**
+```bash
+sudo cp `ros2 pkg prefix turtlebot3_bringup`/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules /etc/udev/rules.d/
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
+---
 
-libudev-dev: USB 장치 규칙(udev) 관리를 위한 라이브러리
+#### ※ 실행 전 최종 빌드 (필수)
+
+위의 모든 설치가 끝난 후, 터미널을 열고 아래 명령어를 실행하여 전체 패키지를 빌드하고 환경을 설정합니다.
+
+```bash
+cd ~/ros2_ws/
+colcon build --symlink-install
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+### [4] YOLO 설치
+#### 4-1.
+```bash
+pip install torch torchvision opencv-python numpy
+```
+
+#### 4-2. YOLOv5 레포 clone
+```bash
+git clone https://github.com/ultralytics/yolov5.git
+cd yolov5
+```
+
+---
+## 2. 실행법
+### [1] 시뮬레이션 실행
+앞선 설치 관련 내용을 **반드시** 준수하여야 함.
+#### 1-1. 가제보 시뮬레이션 실행
+```bash
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+```
+#### 1-2. SLAM 실행
+```bash
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True slam_params_file:=/home/yoon/my_turtlebot_ws/param/my_slam_params.yaml
+```
+#### 1-3. Nav2 실행
+```bash
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True params_file:=/home/yoon/my_turtlebot_ws/param/my_nav2_params.yaml
+```
+#### 1-4. 자동 탐색 패키지 실행
+```bash
+ros2 run explore_lite explore --ros-args --params-file /home/yoon/my_turtlebot_ws/param/explore_params.yaml
+```
+#### 1-5. RViz 실행
+```bash
+ros2 launch nav2_bringup rviz_launch.py
+```
+#### 1-6. 미션 매니저 노드 실행
+```bash
+ros2 run mission_control mission_manager
+```
+### [2] 터틀봇3 실행
+
+#### 2-1. 로봇 시작
+```bash
+ros2 launch turtlebot3_bringup robot.launch.py
+```
+
+#### 2-2. 지도 SLAM
+```bash
+ros2 launch slam_toolbox online_async_launch.py slam_params_file:=/home/pi/my_turtlebot_ws/param/my_slam_params.yaml use_sim_time:=False
+```
+#### 2-3. 이동 NAV2
+```bash
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=False params_file:=/home/pi/my_turtlebot_ws/param/my_nav2_params.yaml
+```
+
+#### 2-4. 제어
+```bash
+ros2 run mission_control mission_manager
+```
+#### 2-5. 탐색
+```bash
+ros2 run explore_lite explore --ros-args --params-file /home/pi/my_turtlebot_ws/param/explore_params.yaml -p use_sim_time:=False
+```
