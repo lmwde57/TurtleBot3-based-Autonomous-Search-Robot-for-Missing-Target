@@ -1,53 +1,18 @@
+# /home/yoon/my_final_slam_params.yaml
 slam_toolbox:
   ros__parameters:
-    # ==================================================================
-    # 기본 및 필수 설정 (기존 설정 유지)
-    # =================================G=================================
-    # 실제 로봇을 사용하므로 use_sim_time은 반드시 False여야 합니다.
     use_sim_time: False
 
-    # 프레임 및 토픽 이름은 표준 설정을 따릅니다.
+    # KTX 속도에 맞춰 공장 라인을 조절하는 핵심 파라미터
+    transform_timeout: 1.0     # 부품(TF)을 1초간 기다려줌
+    tf_buffer_duration: 45.0   # 과거 부품 정보를 45초간 보관
+    throttle_scans: 3          # 들어오는 부품 3개 중 1개만 처리
+    scan_queue_size: 50        # 컨베이어 벨트 크기를 넉넉하게
+    map_update_interval: 2.0   # 2초에 한 번만 결과 보고
+
+    # 기본 설정
     odom_frame: odom
     map_frame: map
-    base_frame: base_footprint # base_link 대신 base_footprint 사용 권장
+    base_frame: base_footprint
     scan_topic: /scan
-
-    # 모드는 지도를 생성하는 'mapping'으로 설정합니다.
     mode: mapping
-
-
-    # ==================================================================
-    # 라즈베리 파이 안정성 확보를 위한 핵심 수정 사항
-    # ==================================================================
-
-    # 1. TF 대기 시간 및 버퍼 기간 대폭 확장 (가장 중요)
-    # 라즈베리 파이의 처리 지연을 감안해 TF를 기다리는 시간을 1.0초로 늘립니다. (기존 0.2초는 너무 짧음)
-    transform_timeout: 1.0
-
-    # 오래된 스캔 데이터에 해당하는 과거의 위치 정보를 45초간 보관하여 'timestamp is earlier' 오류를 방지합니다.
-    tf_buffer_duration: 45.0
-
-    # 2. CPU 부하 감소를 위한 처리량 조절
-    # CPU 부하를 줄이기 위해 2번에 1번 스캔만 처리합니다 (1은 모든 스캔 처리).
-    throttle_scans: 2
-
-    # 로봇이 충분히 움직였을 때만 스캔을 처리하도록 하여 불필요한 연산을 줄입니다.
-    minimum_travel_distance: 0.4
-    minimum_travel_heading: 0.4 # 약 23도
-
-    # 지도 업데이트 주기를 2.0초로 늘려 시스템 부하를 줄입니다.
-    map_update_interval: 2.0
-
-    # 3. 기타 최적화
-    # LDS-02 센서의 실제 유효 거리를 고려합니다. 너무 먼 거리는 노이즈일 가능성이 높습니다.
-    max_laser_range: 3.5
-    resolution: 0.05
-
-
-    # ==================================================================
-    # Ceres Solver 설정 (표준 권장값 유지)
-    # ==================================================================
-    solver_plugin: "solver_plugins::CeresSolver"
-    ceres_linear_solver: "SPARSE_NORMAL_CHOLESKY"
-    ceres_preconditioner: "SCHUR_JACOBI"
-    ceres_trust_region_strategy: "LEVENBERG_MARQUARDT"

@@ -1,0 +1,35 @@
+1: 가제보 시뮬레이션 실행
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+2: SLAM 실행
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True slam_params_file:=/home/yoon/my_turtlebot_ws/param/my_slam_params.yaml
+
+3: Nav2 실행
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True params_file:=/home/yoon/my_turtlebot_ws/param/my_nav2_params.yaml
+
+4: 자동 탐색 패키지 실행
+ros2 run explore_lite explore --ros-args --params-file /home/yoon/my_turtlebot_ws/param/explore_params.yaml
+
+5: RViz 실행
+ros2 launch nav2_bringup rviz_launch.py
+
+6: 미션 매니저 노드 실행
+ros2 run mission_control mission_manager
+
+자동 실행 및 관찰 단계 (사용자는 지켜보기만 함)
+
+    자동 초기 위치 저장: 터미널 6번(미션 매니저)에 "자동으로 초기 위치 저장 완료!" 로그가 출력됩니다.
+
+    자동 탐색 시작: 이어서 "자동 탐색을 시작합니다..." 로그가 출력되고, RViz에서 로봇이 스스로 움직이며 지도를 만들기 시작합니다.
+
+    자동 순찰 전환: 로봇이 맵 탐색을 마치면(새 프론티어가 일정 시간 발견되지 않으면), "탐색 완료. 무작위 순찰 모드로 전환합니다." 로그와 함께 로봇이 무작위로 돌아다니기 시작합니다.
+
+최종 테스트: 인형 발견 트리거 보내기
+
+    결과 확인:
+
+        미션 매니저 터미널에 "인형 발견! 현재 상태를 중단하고 최종 복귀합니다." 로그가 출력됩니다.
+
+        로봇이 즉시 하던 일을 모두 멈추고, 맨 처음에 자동으로 저장했던 초기 위치로 복귀한 후 정지하는 것을 확인합니다.
+
+
