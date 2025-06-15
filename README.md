@@ -15,7 +15,9 @@
 # 실행환경
 UBUNTU 22.04<br>
 ROS2 HUMBLE<br>
-Simulation GPU : GTX1060 3GB
+Simulation GPU : GTX1060 3GB<br>
+Robot : Turtlebot3 - Burger<br>
+Camera : USB Webcam
 ## 1. 설치목록
 
 ### [1] 기본 세팅
